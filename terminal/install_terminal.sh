@@ -3,7 +3,7 @@ set -e  # Detener el script si algo falla
 
 echo "[INFO] Instalando dependencias..."
 sudo apt update
-sudo apt install -y zsh git curl unzip fonts-powerline
+sudo apt install -y zsh git curl unzip fonts-powerline tree
 
 echo "[INFO] Instalando Oh My Zsh..."
 export RUNZSH=no
